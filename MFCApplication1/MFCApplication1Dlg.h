@@ -3,6 +3,7 @@
 //
 
 #pragma once
+#include "afxwin.h"
 
 
 // CMFCApplication1Dlg ¶Ô»°¿ò
@@ -32,4 +33,11 @@ protected:
 public:
 	afx_msg void OnEnChangeEdit4();
 	afx_msg void OnBnClickedButton1();
+	CEdit m_Names;
+	CEdit m_Components;
+	CEdit m_Toxicology;
+	CString m_QName;
+	afx_msg void OnStnClickedStatic4();
+	CString m_lable_of_name;
+	afx_msg void OnBnClickedButton2();
 };
